@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnChocó - La Magia del Pacífico Colombiano</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="FAVICON/553ef76f136ebf9692f24fcd6ad329ca.webp">
+
+</head>
+<body>
+
+
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">En<span>Chocó</span></div>
+        <nav>
+            <ul>
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#lugares">Lugares</a></li>
+                <li><a href="#cultura">Cultura</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Buscar..." id="searchInput">
+                <button class="search-button" onclick="performSearch()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    
+
+   <!-- Carrusel -->
+    <section id="Inicio" class="Inicio">
+        <div class="carousel">
+            <div class="carousel-inner">
+                <!-- Imagen 1 -->
+                <div class="carousel-item">
+                    <img src="1611094927808182.webp" alt="Paisaje del Chocó 1">
+                    <div class="carousel-caption">
+                        <h1>Descubre la Magia del Chocó</h1>
+                        <p>Sumérgete en la belleza natural y la cultura vibrante del Pacífico colombiano. Un paraíso de biodiversidad, tradición y paisajes impresionantes.</p>
+                    </div>
+                </div>
+                
+                <!-- Imagen 2 -->
+                <div class="carousel-item">
+                    <img src="RIO SUCIO.webp" alt="Paisaje del Chocó 2">
+                    <div class="carousel-caption">
+                        <h1>Naturaleza en Estado Puro</h1>
+                        <p>Explora selvas tropicales, playas vírgenes y ríos cristalinos que te dejarán sin aliento.</p>
+                     
+                    </div>
+                </div>
+                
+                <!-- Imagen 3 -->
+                <div class="carousel-item">
+                    <img src="ACANDI.webp" alt="Cultura del Chocó">
+                    <div class="carousel-caption">
+                        <h1>Cultura y Tradición</h1>
+                        <p>Conoce las ricas tradiciones y la calidez de su gente, guardianes de una herencia cultural invaluable.</p>
+                       
+                    </div>
+                </div>
+                
+                <!-- Imagen 4 -->
+                <div class="carousel-item">
+                    <img src="1611094927808182.webp" alt="Biodiversidad del Chocó">
+                    <div class="carousel-caption">
+                        <h1>Paraíso de Biodiversidad</h1>
+                        <p>Hogar de miles de especies de flora y fauna, muchas de ellas únicas en el mundo.</p>
+                        
+                    </div>
+                </div>
+                
+                <!-- Imagen 5 -->
+                <div class="carousel-item">
+                    <img src="RIO SUCIO.webp" alt="Aventura en el Chocó">
+                    <div class="carousel-caption">
+                        <h1>Aventura Sin Límites</h1>
+                        <p>Desde senderismo y avistamiento de ballenas hasta experiencias culturales inolvidables.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Indicadores -->
+            <div class="carousel-indicators">
+                <div class="indicator active" data-index="0"></div>
+                <div class="indicator" data-index="1"></div>
+                <div class="indicator" data-index="2"></div>
+                <div class="indicator" data-index="3"></div>
+                <div class="indicator" data-index="4"></div>
+            </div>
+            
+            <!-- Controles -->
+            <button class="carousel-control prev">&#10094;</button>
+            <button class="carousel-control next">&#10095;</button>
+        </div>
+    </section>
+
+    
+
+
+        
+    
+
+
+   
+
+
+    <!-- Sección de Lugares -->
+     <section id="lugares" class="lugares-section">
+        <section id="lugares">
+        </section>
+    <section class="lugares">
+        <h2 class="section-title">Lugares Asombrosos</h2>
+        <div class="lugares-grid">
+            <!-- Capurganá -->
+            <div class="lugar-card">
+                <img src="  1611094927808182.webp" alt="Capurganá" class="lugar-img">
+                <div class="lugar-info">
+                    <h3>Capurganá</h3>
+                    <p>Un paraíso terrenal donde la selva se encuentra con el mar Caribe. Playas cristalinas, arrecifes de coral y una biodiversidad incomparable.</p>
+                    <button class="btn" onclick="window.location.href='LUGARES/CAPURGANA/capurgana.html'">Descubrir</button>
+                </div>
+            </div>
+            
+            <!-- Quibdó -->
+            <div class="lugar-card">
+                <img src="Quibdo_CoCrea_9-1024x683.webp" alt="Quibdó" class="lugar-img">
+                <div class="lugar-info">
+                    <h3>Quibdó</h3>
+                    <p>La capital del departamento, corazón cultural del Chocó. Conoce su vibrante folclor, su gente amable y su conexión con el río Atrato.</p>
+                    <button class="btn">Descubrir</button>
+                </div>
+            </div>
+            
+            <!-- Bahía Solano -->
+            <div class="lugar-card">
+                <img src="Bahia-Solano-1-37-1500x844-1.webp" alt="Bahía Solano" class="lugar-img">
+                <div class="lugar-info">
+                    <h3>Bahía Solano</h3>
+                    <p>Paraíso para los amantes del ecoturismo y avistamiento de ballenas. Playas vírgenes, selva tropical y una experiencia natural única.</p>
+                    <button class="btn">Descubrir</button>
+                </div>
+            </div>
+            
+            <!-- Nuquí -->
+            <div class="lugar-card">
+                <img src="NUQUI.webp" alt="Nuquí" class="lugar-img">
+                <div class="lugar-info">
+                    <h3>Nuquí</h3>
+                    <p>Termales naturales en medio de la selva, playas de aguas cálidas y la magia de la cultura afrocolombiana te esperan en este destino único.</p>
+                    <button class="btn">Descubrir</button>
+                </div>
+            </div>
+
+
+             <div class="lugar-card">
+                <img src="SAPZURRO.webp" alt="SAPZURO" class="lugar-img">
+                <div class="lugar-info">
+                    <h3>Sapzurro</h3>
+                    <p>Termales naturales en medio de la selva, playas de aguas cálidas y la magia de la cultura afrocolombiana te esperan en este destino único.</p>
+                    <button class="btn">Descubrir</button>
+                </div>
+            </div>
+
+             <div class="lugar-card">
+                <img src="BELLAVISTA.webp" alt="BELLAVISTA" class="lugar-img">
+                <div class="lugar-info">
+                    <h3>Bellavista</h3>
+                    <p>Termales naturales en medio de la selva, playas de aguas cálidas y la magia de la cultura afrocolombiana te esperan en este destino único.</p>
+                    <button class="btn">Descubrir</button>
+                </div>
+            </div>
+
+            <div class="lugar-card">
+                <img src="RIO SUCIO.webp" alt="RIO SUCIO" class="lugar-img">
+                <div class="lugar-info">
+                    <h3>RioSucio</h3>
+                    <p>Termales naturales en medio de la selva, playas de aguas cálidas y la magia de la cultura afrocolombiana te esperan en este destino único.</p>
+                    <button class="btn">Descubrir</button>
+                </div>
+            </div>
+
+             <div class="lugar-card">
+                <img src="TUTUNENDO.webp" alt="TUTUNENDO" class="lugar-img">
+                <div class="lugar-info">
+                    <h3>Tutunendo</h3>
+                    <p>Termales naturales en medio de la selva, playas de aguas cálidas y la magia de la cultura afrocolombiana te esperan en este destino único.</p>
+                    <button class="btn">Descubrir</button>
+                </div>
+            </div>
+
+            <div class="lugar-card">
+                <img src="ISTMINA.webp" alt="ISTMINA" class="lugar-img">
+                <div class="lugar-info">
+                    <h3>Istmina</h3>
+                    <p>Termales naturales en medio de la selva, playas de aguas cálidas y la magia de la cultura afrocolombiana te esperan en este destino único.</p>
+                    <button class="btn">Descubrir</button>
+                </div>
+            </div>
+
+             <div class="lugar-card">
+                <img src="LLORO.webp" alt="LLORO" class="lugar-img">
+                <div class="lugar-info">
+                    <h3>Lloro</h3>
+                    <p>Termales naturales en medio de la selva, playas de aguas cálidas y la magia de la cultura afrocolombiana te esperan en este destino único.</p>
+                    <button class="btn">Descubrir</button>
+                </div>
+            </div>
+
+            <div class="lugar-card">
+                <img src="BETE.webp" alt="BETE" class="lugar-img">
+                <div class="lugar-info">
+                    <h3>Bete</h3>
+                    <p>Termales naturales en medio de la selva, playas de aguas cálidas y la magia de la cultura afrocolombiana te esperan en este destino único.</p>
+                    <button class="btn">Descubrir</button>
+                </div>
+            </div>
+
+             <div class="lugar-card">
+                <img src="ACANDI.webp" alt="ACANDI" class="lugar-img">
+                <div class="lugar-info">
+                    <h3>Acandí</h3>
+                    <p>Termales naturales en medio de la selva, playas de aguas cálidas y la magia de la cultura afrocolombiana te esperan en este destino único.</p>
+                    <button class="btn">Descubrir</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Cultura -->
+     <section id="cultura" class="cultura-section">
+        <section id="cultura">
+        </section>
+    <section class="cultura">
+        <div class="cultura-content">
+            <div class="cultura-text">
+                <h2>Cultura y Tradición</h2>
+                <p>El Chocó es un tesoro cultural donde convergen tradiciones africanas, indígenas y mestizas. Su música, danza, gastronomía y artesanías son expresiones vivas de una herencia ancestral.</p>
+                <p>Conoce la alegría contagiosa de sus festivales, el ritmo del currulao y la marimba, y la calidez de su gente que te hará sentir como en casa.</p>
+                <button class="btn">Conocer más</button>
+            </div>
+            <div class="cultura-gallery">
+                <img src="https://images.unsplash.com/photo-1518638150340-f706e86654de?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" alt="Cultura Chocó">
+                <img src="TRADICIONES/IMG_E1341-2-1-640x640.webp" alt="Artesanías">
+                <img src="https://images.unsplash.com/photo-1516280440634-37939bbacd81?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" alt="Música tradicional">
+                <img src="https://images.unsplash.com/photo-1460661412647-22010c91c8bb?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" alt="Gastronomía">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+     <section id="Contacto" class="Contacto">
+        <section id="Contacto">
+        </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>EnChocó</h3>
+                <p>Descubre la magia, la cultura y la belleza natural del departamento del Chocó, Colombia.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <a href="#">Inicio</a>
+                <a href="#">Lugares</a>
+                <a href="#">Cultura</a>
+                <a href="#">Gastronomía</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Quibdó, Chocó, Colombia</p>
+                <p><i class="fas fa-envelope"></i> info@enchoco.com</p>
+                <p><i class="fas fa-phone"></i> +57 123 456 7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 EnChocó - Todos los derechos reservados</p>
+        </div>
+    </footer>
+    </section>
+
+    <script src="script.js"></script>
+
+   
+</body>
+</html>
